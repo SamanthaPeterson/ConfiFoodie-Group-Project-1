@@ -9,3 +9,7 @@ img {
   margin-right: auto;
   width: 50%;
 }
+
+.title.is-1.is-align-content-center {
+    font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
