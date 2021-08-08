@@ -15,13 +15,12 @@
     <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
 
 
-
-
-    <!--------------------**** image from https://www.pexels.com/photo/woman-pouring-juice-on-glass-3184192/ Source for fonts ****---------------------------->
-    <!--------------------**** image from https://www.pexels.com/photo/woman-pouring-juice-on-glass-3184192/ ****---------------------------->
-
-
-
+ <!--------------------**** images from https://www.pexels.com/photo/woman-pouring-juice-on-glass-3184192/  ****---------------------------->
+   
+ 
+ 
+ 
+ <!--------------------**** image from https://www.pexels.com/photo/woman-pouring-juice-on-glass-3184192/ ****---------------------------->
 
     <img class="card-img-top"
         src="https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
@@ -126,20 +125,33 @@
 
 
 
-            <div class="content"> Eventually you will --
-                <p>
-                    <!-- <button class="button is-warning is-large modal-button is-1-mobile"
-                        data-target="modal-ter" aria-haspopup="true">Click here to start your journey!</button> -->
-                </p>
-            </div>
-
-            <!--------------------**** End of Modal SECTION ****---------------------------->
-
-
+          
 
 
 
             <!--------------------**** Weather and Location SECTION ****---------------------------->
+<!-- start for Weather / Locations For Leslie -->
+            <section class="section">
+                <h1 class="title">Enter Your Location Here</h1>
+                <h2 class="subtitle">
+                    <!-- Option for a City Label Entry  -->
+                    What City Are You In?
+                    <div class="findWeather">
+                        <label class="label">City</label>
+                        <form id="searchField">
+                            <input type="text" id="city"><input type="submit" id="searchButton" value="Submit">
+                        </form>
+                        <!-- <input type="text" id="submitField" >
+                    <button class="submit">Submit</button>  -->
+                        <div class="control">
+                        </div>
+                        <p class="card-footer-item"></p>
+
+                        <!-- <button class="submit">Submit</button> -->
+                        </p>
+                    </div>
+
+
 
 
             <!-- start for Weather / Locations For Leslie -->
@@ -302,6 +314,25 @@
             <!-- End of  Nutrition Section  For Nelson -->
             <!--------------------**** Title SECTION ****---------------------------->
             <!--------------------**** Title SECTION ****---------------------------->
+<div class="content is-normal has-text-black">
+                <h1>Let's Make it a Meal</h1>
+                <article class="message is-warning">
+                    <div class="message-header">
+                        <p></p>
+                    </div>
+                    <div class="message-body">
+                        <h1 id="titleRecipe"></h1>
+                        <img id="recipeImg">
+                        <p id="recipeSummary"> 
+                        </p>
+                    </div>
+                </article>
+                <h2>Recipe</h2>
+                <p id= 'recipeInstructions'></p>
+                <ul id= 'extendedIngredients'></ul>
+            </div>
+
+
 
             <div class="content is-normal has-text-black">
                 <h1>Let's Make it a Meal</h1>
@@ -312,31 +343,17 @@
 
                     </div>
                     <div class="message-body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>,
-                        tempus
-                        quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida
-                        purus
-                        diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis
-                        lectus.
-                        Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna
-                        a neque.
-                        Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                        <h1 id="titleRecipe"></h1>
+                        <img id="recipeImg">
+                        <p id="recipeSummary">
+                        </p>
                     </div>
                 </article>
 
 
                 <h2>Recipe</h2>
-                <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum
-                    maximus
-                    mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti.
-                    Etiam
-                    mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
-                <ul>
-                    <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-                    <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-                    <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-                    <li>Ut non enim metus.</li>
-                </ul>
+                <p id='recipeInstructions'></p>
+                <ul id='extendedIngredients'></ul>
             </div>
 
             <!--------------------**** Title SECTION ****---------------------------->
