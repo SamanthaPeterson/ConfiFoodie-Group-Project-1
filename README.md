@@ -10,8 +10,10 @@ ConfiFoodie is designed to take the stress away from deciding what to make for t
 
 Users will first enter location details on the UI that utilizes Bulma and Modals, and then will be provided their weather related comfort food recipe via Javascript that utilizes both a weather and recipe API.
 
-## UI View
+## Contribute to the Project
 
 ## Link
 
 https://ariana-commits89.github.io/ConfiFoodie/ 
+
+https://github.com/ariana-commits89/ConfiFoodie
