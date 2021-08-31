@@ -15,3 +15,4 @@ Users will first enter location details on the UI that utilizes Bulma and Modals
 ## Link
 
 https://ariana-commits89.github.io/ConfiFoodie/ 
+https://github.com/ariana-commits89/ConfiFoodie
